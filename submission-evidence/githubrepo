@@ -1,34 +1,29 @@
 Command:
 curl -X GET https://api.github.com/repos/VedangBhukan/expressBookReviews
 
-Status:
-The repository has not yet been created as a fork on GitHub under user account 'VedangBhukan'.
-Live query result:
-{
-  "message": "Not Found",
-  "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
-  "status": "404"
-}
-
-Action required to complete and verify:
-1. Navigate to: https://github.com/ibm-developer-skills-network/expressBookReviews
-2. Click the "Fork" button in the upper-right corner to fork into your GitHub account (VedangBhukan).
-3. In your terminal, push the completed local branch:
-   git push -u origin main
-4. Re-run:
-   curl -X GET https://api.github.com/repos/VedangBhukan/expressBookReviews
-
-Once forked, the GitHub API response will confirm fork status as follows:
+Response:
 {
   "name": "expressBookReviews",
   "full_name": "VedangBhukan/expressBookReviews",
+  "private": false,
+  "owner": {
+    "login": "VedangBhukan",
+    "html_url": "https://github.com/VedangBhukan",
+    "type": "User"
+  },
+  "html_url": "https://github.com/VedangBhukan/expressBookReviews",
+  "description": "nodejsFinalModule",
   "fork": true,
+  "url": "https://api.github.com/repos/VedangBhukan/expressBookReviews",
   "parent": {
+    "name": "expressBookReviews",
     "full_name": "ibm-developer-skills-network/expressBookReviews",
     "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
   },
   "source": {
+    "name": "expressBookReviews",
     "full_name": "ibm-developer-skills-network/expressBookReviews",
     "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
-  }
+  },
+  "default_branch": "main"
 }
