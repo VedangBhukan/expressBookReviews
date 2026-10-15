@@ -1,29 +1,5 @@
 Command:
-curl -X GET https://api.github.com/repos/VedangBhukan/expressBookReviews
+curl -s https://api.github.com/repos/VedangBhukan/expressBookReviews | jq '.parent.full_name'
 
 Response:
-{
-  "name": "expressBookReviews",
-  "full_name": "VedangBhukan/expressBookReviews",
-  "private": false,
-  "owner": {
-    "login": "VedangBhukan",
-    "html_url": "https://github.com/VedangBhukan",
-    "type": "User"
-  },
-  "html_url": "https://github.com/VedangBhukan/expressBookReviews",
-  "description": "nodejsFinalModule",
-  "fork": true,
-  "url": "https://api.github.com/repos/VedangBhukan/expressBookReviews",
-  "parent": {
-    "name": "expressBookReviews",
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
-  },
-  "source": {
-    "name": "expressBookReviews",
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
-  },
-  "default_branch": "main"
-}
+"ibm-developer-skills-network/expressBookReviews"

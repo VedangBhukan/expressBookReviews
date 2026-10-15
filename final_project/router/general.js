@@ -104,7 +104,7 @@ const getAllBooks = async () => {
 // Task 11: Search by ISBN – Using Promises with Axios
 const getBookByISBN = (isbn) => {
   return new Promise((resolve, reject) => {
-    axios.get(`${BASE_URL}/isbn/${isbn}`)
+    axios.get(`${BASE_URL}/isbn/${encodeURIComponent(isbn)}`)
       .then((response) => {
         resolve(response.data);
       })

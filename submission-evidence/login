@@ -2,4 +2,6 @@ Command:
 curl -c cookies.txt -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d "{\"username\": \"vedang_user\", \"password\": \"[REDACTED_PASSWORD]\"}"
 
 Response:
-Customer successfully logged in
+Login successful!
+
+Note: Demonstrates successful login by an already registered user ('vedang_user' registered via POST /register).
