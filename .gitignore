@@ -1,4 +1,8 @@
 # Distribution / packaging
 node_modules
+final_project/node_modules
+cookies.txt
+.DS_Store
+
 
 
