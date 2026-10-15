@@ -1,0 +1,10 @@
+Command:
+curl -b cookies.txt -X PUT "http://localhost:5000/customer/auth/review/1?review=Insightful%20and%20moving%20classic"
+
+Response:
+The review for the book with ISBN 1 has been added/updated.
+
+Verified Review Data (via GET http://localhost:5000/review/1):
+{
+    "vedang_user": "Insightful and moving classic"
+}

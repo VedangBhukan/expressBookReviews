@@ -1,0 +1,9 @@
+Command:
+curl -X GET http://localhost:5000/isbn/1
+
+Response:
+{
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "reviews": {}
+}
